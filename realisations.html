@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets | Bless Tshimanga</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo"><i class='bx bx-user'></i> Bless Tshimanga</div>
+
+    <nav class="navbar">
+      <a href="index.html"><i class='bx bx-home'></i> Accueil</a>
+      <a href="apropos.html"><i class='bx bx-id-card'></i> À propos</a>
+      <a href="realisations.html" class="active"><i class='bx bx-code-alt'></i> Projets</a>
+      <a href="contact.html"><i class='bx bx-envelope'></i> Contact</a>
+    </nav>
+
+    <div class="burger" id="burger"><i class='bx bx-menu'></i></div>
+  </header>
+
+  <!-- SECTION PROJETS -->
+  <main>
+    <section class="projects fade-in">
+      <h2>🚀 Mes projets</h2><br>
+      <div class="project-list">
+
+        <div class="project">
+          <h3><i class='bx bx-briefcase'></i> Site de commerce</h3>
+          <p>Un site web statique de e-commerce avec catalogue de produits, conçu en HTML et CSS. Idéal pour apprendre la structuration et le style d’un site commercial.</p>
+          <a href="https://github.com/Blesstk07/Site-commerce" target="_blank" class="btn"><i class='bx bx-link-external'></i> Voir le projet</a>
+        </div>
+
+        <div class="project">
+          <h3><i class='bx bx-briefcase'></i> Page d'accueil</h3>
+          <p>Une page d’accueil moderne et responsive pour une entreprise fictive, avec design attractif et ergonomie simple.</p>
+          <a href="https://github.com/Blesstk07/Page-d-accueil" target="_blank" class="btn"><i class='bx bx-link-external'></i> Voir le projet</a>
+        </div>
+
+        <div class="project">
+          <h3><i class='bx bx-briefcase'></i> Portfolio personnel</h3>
+          <p>Mon portfolio complet, avec sections À propos, Projets, Contact, et intégration de badges et réseaux sociaux.</p>
+          <a href="https://github.com/Blesstk07/Mon-portfolio" target="_blank" class="btn"><i class='bx bx-link-external'></i> Voir le projet</a>
+        </div>
+
+        <div class="project">
+          <h3><i class='bx bx-briefcase'></i> TrashTalk</h3>
+          <p>Application web simple pour publier des messages courts et amusants, projet d’apprentissage JS et HTML/CSS.</p>
+          <a href="https://github.com/Blesstk07/trashtalk" target="_blank" class="btn"><i class='bx bx-link-external'></i> Voir le projet</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bless Tshimanga. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Menu burger toggle
+    const burger = document.getElementById('burger');
+    const navbar = document.querySelector('.navbar');
+
+    burger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

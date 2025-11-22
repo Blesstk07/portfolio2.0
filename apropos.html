@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos | Bless Tshimanga</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <i class='bx bx-user'></i> Bless Tshimanga
+    </div>
+
+    <nav class="navbar">
+      <a href="index.html"><i class='bx bx-home'></i> Accueil</a>
+      <a href="apropos.html" class="active"><i class='bx bx-id-card'></i> À propos</a>
+      <a href="realisations.html"><i class='bx bx-code-alt'></i> Projets</a>
+      <a href="contact.html"><i class='bx bx-envelope'></i> Contact</a>
+    </nav>
+
+    <div class="burger" id="burger">
+      <i class='bx bx-menu'></i>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- SECTION À PROPOS -->
+    <section class="about">
+      <h2>À propos de moi</h2>
+      <p>
+        Salut ! Je suis <strong>Bless Tshimanga</strong>, développeur web et programmeur basé en RDC. Passionné par la création de sites modernes, je me forme constamment aux nouvelles technologies pour transformer des idées en projets concrets.
+      </p>
+
+      <h3>Mes compétences :</h3>
+      <ul class="skills">
+        <li><i class='bx bxl-html5'></i> HTML</li>
+        <li><i class='bx bxl-css3'></i> CSS</li>
+        <li><i class='bx bxl-javascript'></i> JavaScript</li>
+        <li><i class='bx bx-code'></i> C</li>
+        <li><i class='bx bxl-python'></i> Python</li>
+        <li><i class='bx bxl-dart'></i> Dart</li>
+        <li><i class='bx bxl-php'></i> PHP</li>
+      </ul>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section class="projects">
+      <h2>🚀 Projets réalisés / en cours</h2>
+      <div align="center">
+        <a href="https://github.com/Blesstk07/Site-commerce" target="_blank">
+          <img src="https://img.shields.io/badge/Projet1-Site--commerce-blue?style=for-the-badge&logo=github" />
+        </a>
+        <a href="https://github.com/Blesstk07/Mon-portfolio" target="_blank">
+          <img src="https://img.shields.io/badge/Projet2-Portfolio-green?style=for-the-badge&logo=github" />
+        </a>
+        <a href="https://github.com/Blesstk07/encouragement" target="_blank">
+          <img src="https://img.shields.io/badge/Projet3-Encouragement-yellow?style=for-the-badge&logo=github" />
+        </a>
+        <a href="https://github.com/Blesstk07/versets" target="_blank">
+          <img src="https://img.shields.io/badge/Projet4-Versets-orange?style=for-the-badge&logo=github" />
+        </a>
+        <a href="https://github.com/Blesstk07/trashtalk" target="_blank">
+          <img src="https://img.shields.io/badge/Projet5-TrashTalk-red?style=for-the-badge&logo=github" />
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION COMPÉTENCES & OUTILS -->
+    <section class="skills-tools">
+      <h2>🧰 Compétences & Outils</h2><br>
+
+      <h3>🔤 Langages</h3><br>
+      <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Blesstk07&layout=compact&theme=radical&hide_border=false" width="400"/>
+      </p>
+
+      <h3>🛠️ Outils & Environnement</h3><br>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=linux,vscode,git,github" />
+      </p>
+    </section>
+
+    <!-- SECTION CONTACT / RÉSEAUX -->
+    <section class="contact">
+      <h2>🔗 Me suivre</h2>
+      <div align="center" style="margin-top:10px;">
+        <a href="mailto:tshimangabless2000@gmail.com" title="Email">
+          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="110"/>
+        </a>
+        <a href="https://github.com/Blesstk07" title="GitHub">
+          <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" width="110"/>
+        </a>
+        <a href="https://tiktok.com/blesstk07" title="TikTok">
+          <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" width="110"/>
+        </a>
+        <a href="https://wa.me/243974795742" title="WhatsApp">
+          <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="110"/>
+        </a>
+        <a href="https://instagram.com/Blesstk07" title="Instagram">
+          <img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" width="110"/>
+        </a>
+        <a href="https://www.linkedin.com/in/bless-tshimanga-1a4114343/" title="LinkedIn">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="110"/>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bless Tshimanga. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Menu burger toggle
+    const burger = document.getElementById('burger');
+    const navbar = document.querySelector('.navbar');
+    burger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

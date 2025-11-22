@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Bless</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <i class='bx bx-user'></i> Bless
+    </div>
+
+    <nav class="navbar">
+      <a href="index.html"><i class='bx bx-home'></i> Accueil</a>
+      <a href="apropos.html"><i class='bx bx-id-card'></i> À propos</a>
+      <a href="realisations.html"><i class='bx bx-code-alt'></i> Projets</a>
+      <a href="contact.html" class="active"><i class='bx bx-envelope'></i> Contact</a>
+    </nav>
+
+    <div class="burger" id="burger">
+      <i class='bx bx-menu'></i>
+    </div>
+  </header>
+
+  <!-- SECTION CONTACT -->
+  <main>
+    <section class="contact">
+      <h2>📬 Contactez-moi</h2>
+      <p>
+        N'hésitez pas à me joindre pour des collaborations, projets ou simplement pour échanger !
+      </p>
+
+      <h3>✉️ Email :</h3>
+      <p>tshimangabless2000@gmail.com</p>
+
+      <h3>📞 WhatsApp :</h3>
+      <p><a href="https://wa.me/243974795742" target="_blank">+243 974 795 742</a></p>
+
+      <h3>🔗 Réseaux sociaux :</h3>
+      <div align="center" style="margin-top:10px;">
+        <a href="https://github.com/Blesstk07" title="GitHub" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" width="110"/>
+        </a>
+        <a href="https://tiktok.com/blesstk07" title="TikTok" target="_blank">
+          <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" width="110"/>
+        </a>
+        <a href="https://instagram.com/Blesstk07" title="Instagram" target="_blank">
+          <img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" width="110"/>
+        </a>
+        <a href="https://www.linkedin.com/in/bless-tshimanga-1a4114343/" title="LinkedIn" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="110"/>
+        </a>
+        <a href="mailto:tshimangabless2000@gmail.com" title="Email">
+          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="110"/>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bless. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Menu burger toggle
+    const burger = document.getElementById('burger');
+    const navbar = document.querySelector('.navbar');
+
+    burger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

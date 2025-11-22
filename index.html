@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio de Bless Tshimanga</title>
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Bless Dev</div>
+
+    <nav class="navbar">
+      <a href="index.html" class="active"><i class='bx bx-home'></i> Accueil</a>
+      <a href="apropos.html"><i class='bx bx-user'></i> À propos</a>
+      <a href="realisations.html"><i class='bx bx-briefcase'></i> Projets</a>
+      <a href="contact.html"><i class='bx bx-envelope'></i> Contact</a>
+    </nav>
+
+    <div class="burger"><i class='bx bx-menu'></i></div>
+  </header>
+
+  <!-- SECTION HERO -->
+  <main>
+    <section class="hero">
+      <h1>Bonjour, je suis <span style="color:#f7931e;">Bless</span></h1>
+      <p>Développeur web débutant passionné, je transforme des idées en sites modernes et élégants.</p>
+      <a href="apropos.html" class="btn">En savoir plus</a>
+    </section>
+
+    <!-- SECTION PROJETS (optionnelle pour index) -->
+    <section class="projects">
+      <h2>🚀 Projets récents</h2>
+      <div align="center">
+        <a href="https://github.com/Blesstk07/Site-commerce" target="_blank">
+          <img src="https://img.shields.io/badge/Projet1-Site--commerce-blue?style=for-the-badge&logo=github" />
+        </a>
+        <a href="https://github.com/Blesstk07/Mon-portfolio" target="_blank">
+          <img src="https://img.shields.io/badge/Projet2-Portfolio-green?style=for-the-badge&logo=github" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bless Tshimanga. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Menu burger toggle
+    const burger = document.querySelector('.burger');
+    const navbar = document.querySelector('.navbar');
+    burger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
