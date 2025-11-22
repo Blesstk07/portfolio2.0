@@ -32,26 +32,33 @@
     <!-- SECTION À PROPOS -->
     <section class="about">
       <h2>À propos de moi</h2>
-      <p>
-        Salut ! Je suis <strong>Bless Tshimanga</strong>, développeur web et programmeur basé en RDC. Passionné par la création de sites modernes, je me forme constamment aux nouvelles technologies pour transformer des idées en projets concrets.
-      </p>
+      <div class="about-container">
+        <div class="about-text">
+          <p>
+            Salut ! Je suis <strong>Bless Tshimanga</strong>, développeur web et programmeur basé en RDC. Passionné par la création de sites modernes, je me forme constamment aux nouvelles technologies pour transformer des idées en projets concrets.
+          </p>
 
-      <h3>Mes compétences :</h3>
-      <ul class="skills">
-        <li><i class='bx bxl-html5'></i> HTML</li>
-        <li><i class='bx bxl-css3'></i> CSS</li>
-        <li><i class='bx bxl-javascript'></i> JavaScript</li>
-        <li><i class='bx bx-code'></i> C</li>
-        <li><i class='bx bxl-python'></i> Python</li>
-        <li><i class='bx bxl-dart'></i> Dart</li>
-        <li><i class='bx bxl-php'></i> PHP</li>
-      </ul>
+          <h3>Mes compétences :</h3>
+          <ul class="skills">
+            <li><i class='bx bxl-html5'></i> HTML</li>
+            <li><i class='bx bxl-css3'></i> CSS</li>
+            <li><i class='bx bxl-javascript'></i> JavaScript</li>
+            <li><i class='bx bx-code'></i> C</li>
+            <li><i class='bx bxl-python'></i> Python</li>
+            <li><i class='bx bxl-dart'></i> Dart</li>
+            <li><i class='bx bxl-php'></i> PHP</li>
+          </ul>
+        </div>
+        <div class="about-photo">
+          <img src="img/1.jpeg" alt="Photo de Bless Tshimanga" />
+        </div>
+      </div>
     </section>
 
     <!-- SECTION PROJETS -->
     <section class="projects">
       <h2>🚀 Projets réalisés / en cours</h2>
-      <div align="center">
+      <div class="project-badges">
         <a href="https://github.com/Blesstk07/Site-commerce" target="_blank">
           <img src="https://img.shields.io/badge/Projet1-Site--commerce-blue?style=for-the-badge&logo=github" />
         </a>
@@ -72,23 +79,23 @@
 
     <!-- SECTION COMPÉTENCES & OUTILS -->
     <section class="skills-tools">
-      <h2>🧰 Compétences & Outils</h2><br>
+      <h2>🧰 Compétences & Outils</h2>
 
-      <h3>🔤 Langages</h3><br>
-      <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Blesstk07&layout=compact&theme=radical&hide_border=false" width="400"/>
-      </p>
+      <h3>🔤 Langages</h3>
+      <div class="langages-img">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Blesstk07&layout=compact&theme=radical&hide_border=false" alt="Mes langages" />
+      </div>
 
-      <h3>🛠️ Outils & Environnement</h3><br>
-      <p align="center">
-        <img src="https://skillicons.dev/icons?i=linux,vscode,git,github" />
-      </p>
+      <h3>🛠️ Outils & Environnement</h3>
+      <div class="tools-img">
+        <img src="https://skillicons.dev/icons?i=linux,vscode,git,github" alt="Outils & environnement"/>
+      </div>
     </section>
 
     <!-- SECTION CONTACT / RÉSEAUX -->
     <section class="contact">
       <h2>🔗 Me suivre</h2>
-      <div align="center" style="margin-top:10px;">
+      <div class="social-badges">
         <a href="mailto:tshimangabless2000@gmail.com" title="Email">
           <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="110"/>
         </a>
@@ -117,7 +124,6 @@
   </footer>
 
   <script>
-    // Menu burger toggle
     const burger = document.getElementById('burger');
     const navbar = document.querySelector('.navbar');
     burger.addEventListener('click', () => {
